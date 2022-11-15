@@ -1,0 +1,63 @@
+{
+  "name": "create-react-component",
+  "displayName": "Create React Component",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:create-react-component.createComponent"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "create-react-component.createComponent",
+        "title": "Create React Component"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "create-react-component.createComponent",
+          "group": "YourGroup@1"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Create React Component",
+      "properties": {
+        "create-react-component.componentExtension": {
+          "type": "string",
+          "default": "js",
+          "description": "Main component file extension"
+        },
+        "create-react-component.stylesExtension": {
+          "type": "string",
+          "default": "scss",
+          "description": "Styles file extension"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.73.0",
+    "@types/glob": "^8.0.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "16.x",
+    "eslint": "^8.26.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.1.0",
+    "typescript": "^4.8.4",
+    "@vscode/test-electron": "^2.2.0"
+  }
+}
