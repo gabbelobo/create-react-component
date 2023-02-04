@@ -1,8 +1,9 @@
 {
   "name": "create-react-component-module",
   "displayName": "Create React Component",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Create React Components via context menu",
+  "icon": "crc_logo.png",
+  "version": "0.1.0",
   "repository": {
     "url": "https://github.com/gabbelobo/create-react-component"
   },
@@ -28,7 +29,7 @@
       "explorer/context": [
         {
           "command": "create-react-component.createComponent",
-          "group": "YourGroup@1"
+          "group": "React"
         }
       ]
     },
