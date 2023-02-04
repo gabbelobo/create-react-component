@@ -1,8 +1,12 @@
 {
-  "name": "create-react-component",
+  "name": "create-react-component-module",
   "displayName": "Create React Component",
   "description": "",
   "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/gabbelobo/create-react-component"
+  },
+  "publisher": "GabrielLobo",
   "engines": {
     "vscode": "^1.73.0"
   },
