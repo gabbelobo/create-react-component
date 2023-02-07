@@ -3,7 +3,7 @@
   "displayName": "Create React Component",
   "description": "Create React Components via context menu",
   "icon": "crc_logo.png",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "url": "https://github.com/gabbelobo/create-react-component"
   },

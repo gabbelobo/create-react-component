@@ -24,6 +24,7 @@ const createComponent = (uri, componentName) => {
 
 		let componentContent = fs.readFileSync(componentTemplateFileName).toString()
 			.replace(/__COMPONENT_NAME__/g, componentName)
+			.replace(/__STYLESHEET_EXTENSION__/g, config.stylesExtension)
 
 		const indexFileUri = vscode.Uri.file(uri + `/index.js`);
 		wsedit.createFile(indexFileUri);

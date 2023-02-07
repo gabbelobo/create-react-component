@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './__COMPONENT_NAME__.module.scss'
+import styles from './__COMPONENT_NAME__.module.__STYLESHEET_EXTENSION__'
 
 const __COMPONENT_NAME__ = () => {
     return (
