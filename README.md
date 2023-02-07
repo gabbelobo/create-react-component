@@ -15,16 +15,6 @@ This extension contributes the following settings:
 * `create-react-component.componentExtension`: File extension for the main component file
 * `create-react-component.stylesExtension`: File extension for the stylesheet module
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of Create React Component
-
-
 ---
-
 
 **Enjoy!**
